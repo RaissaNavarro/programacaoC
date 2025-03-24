@@ -5,9 +5,9 @@ int main(){
     int soma, subtracao, multiplicacao, divisao;
 
     printf("Entre com o número 1: \n");
-    scanf("%d", numero1);
+    scanf("%d", &numero1);
     printf("Entre com o número 2: \n");
-    scanf("%d", &subtracao);
+    scanf("%d", &numero2);
 
     soma = numero1 + numero2; //soma
 
